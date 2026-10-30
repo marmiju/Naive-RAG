@@ -3,12 +3,14 @@ from utils.text_split import slpit_into_chunk
 from utils.config import (
     create_embeddings,
     store_embeded_cunks,
-    collection
+    collection,
 )
+from utils.visual import visualize_retrieval
 
 from dotenv import load_dotenv
 from openrouter import OpenRouter
 import os
+
 
 
 # Load environment variables
@@ -98,3 +100,12 @@ while True:
     answer = response.choices[0].message.content
 
     print("\nMAR-AI:", answer)
+
+    # visual effect
+    visualize_retrieval(
+    collection=collection,
+    query_embedding=embedding_input,
+    results=results
+    )
+
+

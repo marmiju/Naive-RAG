@@ -11,7 +11,7 @@ collection = client.get_or_create_collection(
 def create_embeddings(chunks: list[str]) -> list[list[float]]:
     print("Embedding started...")
 
-    embeddings = sentence_embedder(chunks)
+    embeddings = sentence_embedder(chunks )
 
     print("Embedding completed!")
     return embeddings

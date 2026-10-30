@@ -1,4 +1,4 @@
-def slpit_into_chunk(content,chunk_size=800, overlap=100):
+def slpit_into_chunk(content,chunk_size=200, overlap=10):
     print("chunk started.....................")
     chunk= []
 

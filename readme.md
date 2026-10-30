@@ -15,6 +15,10 @@ An end-to-end, locally grounded **Naive Retrieval-Augmented Generation (RAG)** s
 ![Naive RAG Pipeline Flow](assets/rag_architecture.png)
 
 ---
+## graph 
+![Naive RAG Pipeline Flow](assets/naiv-rag-graph.png)
+
+---
 
 ## Table of Contents
 
