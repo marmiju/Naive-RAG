@@ -111,8 +111,8 @@ In this implementation:
 ```
 Original Text Stream:
 [==================== Block 1 (800 chars) ====================]
-                     [===== Overlap 100 =====]
-                     [==================== Block 2 (800 chars) ====================]
+[===== Overlap 100 =====]
+[==================== Block 2 (800 chars) ====================]
 ```
 
 **Why Overlap Matters:** If an important sentence is sliced directly down the middle between two chunks, the semantic meaning would be destroyed. Overlapping characters preserve cross-boundary context so that every fact remains coherent in at least one chunk.
